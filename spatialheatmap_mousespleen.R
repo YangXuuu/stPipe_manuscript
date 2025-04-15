@@ -2,7 +2,7 @@
 
 library(Seurat)
 
-obj <- readRDS("/stornext/General/data/user_managed/grpu_mritchie_1/YangXu/ST_pipeline/stPipe_paper/mouse_spleen/G000218_CytAssist_FFPE_709/obj.rds")
+obj <- readRDS("mouse_spleen/G000218_CytAssist_FFPE_709/obj.rds")
 
 # Normalization
 obj <- SCTransform(obj, assay = "Spatial", verbose = FALSE)
