@@ -78,7 +78,6 @@ legend("topright", legend = c("XiE genes", "chrY genes"),
 chromo_Y <- c("Gm47283", "Eif2s3y", "Ddx3y", "Kdm5d", "Uty", "Gm21860", "Gm29650")
 
 XiE <- c("Cybb", "Ddx3x", "Kdm6a", "Cfp", "Utp14a", "Firre", "Bgn", "5430427O19Rik", "Eif2s3x", "Vsig4", "Xist", "Ftx", "5530601H04Rik", "Pbdc1", "5730416F02Rik", "Kdm5c", "Tmsb4x", "Esm1")
-chromo_Y <- c("Mmp3", "Gm14308", "Ccl2", "Erdr1x", "Nts", "Gm14434", "Slc15a")
 
 
 XiE_genes <- which(rownames(topTable) %in% XiE)
