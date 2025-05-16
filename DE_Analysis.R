@@ -1,6 +1,6 @@
 ################## DE Analysis ##################
 FFPE_Cyt_709$dataset <- "FFPE_Cyt_709"
-FFPE_Cyt_709$dataset <- "FFPE_Manual_709"
+FFPE_Manual_709$dataset <- "FFPE_Manual_709"
 OCT_Cyt_709$dataset <- "OCT_Cyt_709"
 OCT_Manual_709$dataset <- "OCT_Manual_709"
 
